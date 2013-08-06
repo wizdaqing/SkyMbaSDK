@@ -157,7 +157,7 @@ public class WizSystemSettings {
 	}
 
 	public static boolean isAutoAdaptsScreen(Context ctx) {
-		return getSettingMessage(ctx, "autoAdaptToPhoneScreenCheckBox", false);
+		return getSettingMessage(ctx, "autoAdaptToPhoneScreenCheckBox", true);
 	}
 
 	public static boolean isOpenNightMode(Context ctx) {
